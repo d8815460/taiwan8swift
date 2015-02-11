@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE71F811A8B10AE00F16DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71F801A8B10AE00F16DCB /* AppDelegate.swift */; };
+		FAE71F841A8B10AE00F16DCB /* taiwan8swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAE71F821A8B10AE00F16DCB /* taiwan8swift.xcdatamodeld */; };
+		FAE71F861A8B10AE00F16DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71F851A8B10AE00F16DCB /* ViewController.swift */; };
+		FAE71F891A8B10AE00F16DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE71F871A8B10AE00F16DCB /* Main.storyboard */; };
+		FAE71F8B1A8B10AE00F16DCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE71F8A1A8B10AE00F16DCB /* Images.xcassets */; };
+		FAE71F8E1A8B10AE00F16DCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE71F8C1A8B10AE00F16DCB /* LaunchScreen.xib */; };
+		FAE71F9A1A8B10AE00F16DCB /* taiwan8swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71F991A8B10AE00F16DCB /* taiwan8swiftTests.swift */; };
+		FAE71FAA1A8B189600F16DCB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FA51A8B189600F16DCB /* Bolts.framework */; };
+		FAE71FAB1A8B189600F16DCB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FA61A8B189600F16DCB /* Parse.framework */; };
+		FAE71FAC1A8B189600F16DCB /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FA71A8B189600F16DCB /* ParseCrashReporting.framework */; };
+		FAE71FAD1A8B189600F16DCB /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FA81A8B189600F16DCB /* ParseFacebookUtils.framework */; };
+		FAE71FAE1A8B189600F16DCB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FA91A8B189600F16DCB /* ParseUI.framework */; };
+		FAE71FB01A8B190500F16DCB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FAF1A8B190500F16DCB /* libsqlite3.dylib */; };
+		FAE71FB21A8B190B00F16DCB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FB11A8B190B00F16DCB /* libz.dylib */; };
+		FAE71FB41A8B191200F16DCB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FB31A8B191200F16DCB /* SystemConfiguration.framework */; };
+		FAE71FB61A8B191B00F16DCB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FB51A8B191B00F16DCB /* StoreKit.framework */; };
+		FAE71FB81A8B192200F16DCB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FB71A8B192200F16DCB /* Security.framework */; };
+		FAE71FBA1A8B192900F16DCB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FB91A8B192900F16DCB /* QuartzCore.framework */; };
+		FAE71FBC1A8B193500F16DCB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FBB1A8B193500F16DCB /* MobileCoreServices.framework */; };
+		FAE71FBE1A8B193F00F16DCB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FBD1A8B193F00F16DCB /* CoreLocation.framework */; };
+		FAE71FC01A8B194800F16DCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FBF1A8B194800F16DCB /* CoreGraphics.framework */; };
+		FAE71FC21A8B195500F16DCB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FC11A8B195500F16DCB /* CFNetwork.framework */; };
+		FAE71FC41A8B195B00F16DCB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE71FC31A8B195B00F16DCB /* AudioToolbox.framework */; };
+		FAE71FC81A8B19CC00F16DCB /* taiwan8SwiftHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE71FC71A8B19CC00F16DCB /* taiwan8SwiftHeader.m */; };
+		FAE71FCC1A8B370100F16DCB /* FinalRaisedCenterTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE71FCB1A8B370100F16DCB /* FinalRaisedCenterTabController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE71F941A8B10AE00F16DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE71F731A8B10AE00F16DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE71F7A1A8B10AE00F16DCB;
+			remoteInfo = taiwan8swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE71F7B1A8B10AE00F16DCB /* taiwan8swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taiwan8swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE71F7F1A8B10AE00F16DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE71F801A8B10AE00F16DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE71F831A8B10AE00F16DCB /* taiwan8swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = taiwan8swift.xcdatamodel; sourceTree = "<group>"; };
+		FAE71F851A8B10AE00F16DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAE71F881A8B10AE00F16DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE71F8A1A8B10AE00F16DCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAE71F8D1A8B10AE00F16DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAE71F931A8B10AE00F16DCB /* taiwan8swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = taiwan8swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE71F981A8B10AE00F16DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE71F991A8B10AE00F16DCB /* taiwan8swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taiwan8swiftTests.swift; sourceTree = "<group>"; };
+		FAE71FA51A8B189600F16DCB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FAE71FA61A8B189600F16DCB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FAE71FA71A8B189600F16DCB /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		FAE71FA81A8B189600F16DCB /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		FAE71FA91A8B189600F16DCB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		FAE71FAF1A8B190500F16DCB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FAE71FB11A8B190B00F16DCB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FAE71FB31A8B191200F16DCB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAE71FB51A8B191B00F16DCB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FAE71FB71A8B192200F16DCB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAE71FB91A8B192900F16DCB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAE71FBB1A8B193500F16DCB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FAE71FBD1A8B193F00F16DCB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAE71FBF1A8B194800F16DCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAE71FC11A8B195500F16DCB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAE71FC31A8B195B00F16DCB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAE71FC61A8B19CC00F16DCB /* taiwan8swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "taiwan8swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAE71FC71A8B19CC00F16DCB /* taiwan8SwiftHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = taiwan8SwiftHeader.m; sourceTree = "<group>"; };
+		FAE71FCB1A8B370100F16DCB /* FinalRaisedCenterTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalRaisedCenterTabController.swift; sourceTree = "<group>"; };
+		FAE71FCD1A8B40CC00F16DCB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE71F781A8B10AE00F16DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE71FC41A8B195B00F16DCB /* AudioToolbox.framework in Frameworks */,
+				FAE71FC21A8B195500F16DCB /* CFNetwork.framework in Frameworks */,
+				FAE71FC01A8B194800F16DCB /* CoreGraphics.framework in Frameworks */,
+				FAE71FBE1A8B193F00F16DCB /* CoreLocation.framework in Frameworks */,
+				FAE71FBC1A8B193500F16DCB /* MobileCoreServices.framework in Frameworks */,
+				FAE71FBA1A8B192900F16DCB /* QuartzCore.framework in Frameworks */,
+				FAE71FB81A8B192200F16DCB /* Security.framework in Frameworks */,
+				FAE71FB61A8B191B00F16DCB /* StoreKit.framework in Frameworks */,
+				FAE71FB41A8B191200F16DCB /* SystemConfiguration.framework in Frameworks */,
+				FAE71FB21A8B190B00F16DCB /* libz.dylib in Frameworks */,
+				FAE71FB01A8B190500F16DCB /* libsqlite3.dylib in Frameworks */,
+				FAE71FAB1A8B189600F16DCB /* Parse.framework in Frameworks */,
+				FAE71FAC1A8B189600F16DCB /* ParseCrashReporting.framework in Frameworks */,
+				FAE71FAE1A8B189600F16DCB /* ParseUI.framework in Frameworks */,
+				FAE71FAD1A8B189600F16DCB /* ParseFacebookUtils.framework in Frameworks */,
+				FAE71FAA1A8B189600F16DCB /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE71F901A8B10AE00F16DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE71F721A8B10AE00F16DCB = {
+			isa = PBXGroup;
+			children = (
+				FAE71F7D1A8B10AE00F16DCB /* taiwan8swift */,
+				FAE71F961A8B10AE00F16DCB /* taiwan8swiftTests */,
+				FAE71F7C1A8B10AE00F16DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE71F7C1A8B10AE00F16DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71F7B1A8B10AE00F16DCB /* taiwan8swift.app */,
+				FAE71F931A8B10AE00F16DCB /* taiwan8swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE71F7D1A8B10AE00F16DCB /* taiwan8swift */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71FCB1A8B370100F16DCB /* FinalRaisedCenterTabController.swift */,
+				FAE71F801A8B10AE00F16DCB /* AppDelegate.swift */,
+				FAE71F851A8B10AE00F16DCB /* ViewController.swift */,
+				FAE71F871A8B10AE00F16DCB /* Main.storyboard */,
+				FAE71F8A1A8B10AE00F16DCB /* Images.xcassets */,
+				FAE71F8C1A8B10AE00F16DCB /* LaunchScreen.xib */,
+				FAE71F821A8B10AE00F16DCB /* taiwan8swift.xcdatamodeld */,
+				FAE71FA41A8B189600F16DCB /* parseLibrary */,
+				FAE71FC51A8B196100F16DCB /* frameworks */,
+				FAE71F7E1A8B10AE00F16DCB /* Supporting Files */,
+				FAE71FC71A8B19CC00F16DCB /* taiwan8SwiftHeader.m */,
+				FAE71FC61A8B19CC00F16DCB /* taiwan8swift-Bridging-Header.h */,
+				FAE71FCD1A8B40CC00F16DCB /* MyPlayground.playground */,
+			);
+			path = taiwan8swift;
+			sourceTree = "<group>";
+		};
+		FAE71F7E1A8B10AE00F16DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71F7F1A8B10AE00F16DCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE71F961A8B10AE00F16DCB /* taiwan8swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71F991A8B10AE00F16DCB /* taiwan8swiftTests.swift */,
+				FAE71F971A8B10AE00F16DCB /* Supporting Files */,
+			);
+			path = taiwan8swiftTests;
+			sourceTree = "<group>";
+		};
+		FAE71F971A8B10AE00F16DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71F981A8B10AE00F16DCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE71FA41A8B189600F16DCB /* parseLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71FA51A8B189600F16DCB /* Bolts.framework */,
+				FAE71FA61A8B189600F16DCB /* Parse.framework */,
+				FAE71FA71A8B189600F16DCB /* ParseCrashReporting.framework */,
+				FAE71FA81A8B189600F16DCB /* ParseFacebookUtils.framework */,
+				FAE71FA91A8B189600F16DCB /* ParseUI.framework */,
+			);
+			path = parseLibrary;
+			sourceTree = "<group>";
+		};
+		FAE71FC51A8B196100F16DCB /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE71FC31A8B195B00F16DCB /* AudioToolbox.framework */,
+				FAE71FC11A8B195500F16DCB /* CFNetwork.framework */,
+				FAE71FBF1A8B194800F16DCB /* CoreGraphics.framework */,
+				FAE71FBD1A8B193F00F16DCB /* CoreLocation.framework */,
+				FAE71FBB1A8B193500F16DCB /* MobileCoreServices.framework */,
+				FAE71FB91A8B192900F16DCB /* QuartzCore.framework */,
+				FAE71FB71A8B192200F16DCB /* Security.framework */,
+				FAE71FB51A8B191B00F16DCB /* StoreKit.framework */,
+				FAE71FB31A8B191200F16DCB /* SystemConfiguration.framework */,
+				FAE71FB11A8B190B00F16DCB /* libz.dylib */,
+				FAE71FAF1A8B190500F16DCB /* libsqlite3.dylib */,
+			);
+			name = frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE71F7A1A8B10AE00F16DCB /* taiwan8swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE71F9D1A8B10AE00F16DCB /* Build configuration list for PBXNativeTarget "taiwan8swift" */;
+			buildPhases = (
+				FAE71F771A8B10AE00F16DCB /* Sources */,
+				FAE71F781A8B10AE00F16DCB /* Frameworks */,
+				FAE71F791A8B10AE00F16DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = taiwan8swift;
+			productName = taiwan8swift;
+			productReference = FAE71F7B1A8B10AE00F16DCB /* taiwan8swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE71F921A8B10AE00F16DCB /* taiwan8swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE71FA01A8B10AE00F16DCB /* Build configuration list for PBXNativeTarget "taiwan8swiftTests" */;
+			buildPhases = (
+				FAE71F8F1A8B10AE00F16DCB /* Sources */,
+				FAE71F901A8B10AE00F16DCB /* Frameworks */,
+				FAE71F911A8B10AE00F16DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE71F951A8B10AE00F16DCB /* PBXTargetDependency */,
+			);
+			name = taiwan8swiftTests;
+			productName = taiwan8swiftTests;
+			productReference = FAE71F931A8B10AE00F16DCB /* taiwan8swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE71F731A8B10AE00F16DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = miiitech;
+				TargetAttributes = {
+					FAE71F7A1A8B10AE00F16DCB = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = LX8P49F6F2;
+					};
+					FAE71F921A8B10AE00F16DCB = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FAE71F7A1A8B10AE00F16DCB;
+					};
+				};
+			};
+			buildConfigurationList = FAE71F761A8B10AE00F16DCB /* Build configuration list for PBXProject "taiwan8swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE71F721A8B10AE00F16DCB;
+			productRefGroup = FAE71F7C1A8B10AE00F16DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE71F7A1A8B10AE00F16DCB /* taiwan8swift */,
+				FAE71F921A8B10AE00F16DCB /* taiwan8swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE71F791A8B10AE00F16DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE71F891A8B10AE00F16DCB /* Main.storyboard in Resources */,
+				FAE71F8E1A8B10AE00F16DCB /* LaunchScreen.xib in Resources */,
+				FAE71F8B1A8B10AE00F16DCB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE71F911A8B10AE00F16DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE71F771A8B10AE00F16DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE71F861A8B10AE00F16DCB /* ViewController.swift in Sources */,
+				FAE71FC81A8B19CC00F16DCB /* taiwan8SwiftHeader.m in Sources */,
+				FAE71FCC1A8B370100F16DCB /* FinalRaisedCenterTabController.swift in Sources */,
+				FAE71F841A8B10AE00F16DCB /* taiwan8swift.xcdatamodeld in Sources */,
+				FAE71F811A8B10AE00F16DCB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE71F8F1A8B10AE00F16DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE71F9A1A8B10AE00F16DCB /* taiwan8swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE71F951A8B10AE00F16DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE71F7A1A8B10AE00F16DCB /* taiwan8swift */;
+			targetProxy = FAE71F941A8B10AE00F16DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE71F871A8B10AE00F16DCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE71F881A8B10AE00F16DCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE71F8C1A8B10AE00F16DCB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE71F8D1A8B10AE00F16DCB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE71F9B1A8B10AE00F16DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE71F9C1A8B10AE00F16DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE71F9E1A8B10AE00F16DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/taiwan8swift/parseLibrary",
+				);
+				INFOPLIST_FILE = taiwan8swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taiwan8swift/taiwan8swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE71F9F1A8B10AE00F16DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/taiwan8swift/parseLibrary",
+				);
+				INFOPLIST_FILE = taiwan8swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "taiwan8swift/taiwan8swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		FAE71FA11A8B10AE00F16DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = taiwan8swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taiwan8swift.app/taiwan8swift";
+			};
+			name = Debug;
+		};
+		FAE71FA21A8B10AE00F16DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = taiwan8swiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/taiwan8swift.app/taiwan8swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE71F761A8B10AE00F16DCB /* Build configuration list for PBXProject "taiwan8swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE71F9B1A8B10AE00F16DCB /* Debug */,
+				FAE71F9C1A8B10AE00F16DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE71F9D1A8B10AE00F16DCB /* Build configuration list for PBXNativeTarget "taiwan8swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE71F9E1A8B10AE00F16DCB /* Debug */,
+				FAE71F9F1A8B10AE00F16DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE71FA01A8B10AE00F16DCB /* Build configuration list for PBXNativeTarget "taiwan8swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE71FA11A8B10AE00F16DCB /* Debug */,
+				FAE71FA21A8B10AE00F16DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAE71F821A8B10AE00F16DCB /* taiwan8swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAE71F831A8B10AE00F16DCB /* taiwan8swift.xcdatamodel */,
+			);
+			currentVersion = FAE71F831A8B10AE00F16DCB /* taiwan8swift.xcdatamodel */;
+			path = taiwan8swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAE71F731A8B10AE00F16DCB /* Project object */;
+}
